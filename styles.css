@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 600px;
-    height: 800px;
+    height: 720px;
     background: white;
     align-content: space-between;
     margin: 80px auto;
@@ -58,6 +58,24 @@ img {
     max-width: 600px;
 }
 
-/* #p1 {
-    margin-top: 20px;
-} */
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+#comment {
+    padding: 0 10px;
+}
+
+#bm {
+    padding-left: 425px;
+}
+
+.liked {
+    padding: 15px;
+}
+
+.post-descrip {
+    padding: 0 15px 30px 15px;
+}
